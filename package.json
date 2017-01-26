@@ -1,0 +1,30 @@
+{
+  "name": "server-demo",
+  "version": "1.0.0",
+  "description": "node server demo app",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_PATH=source node source/server.js",
+    "debug": "cross-env NODE_PATH=source node --debug-brk --inspect source/server.js",
+    "test": "cross-env NODE_PATH=source node source/test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "server-demo"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Matt",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^3.1.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "supertest": "^2.0.1",
+    "tape": "^4.6.3"
+  }
+}
