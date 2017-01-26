@@ -6,7 +6,7 @@
   "scripts": {
     "start": "cross-env NODE_PATH=source node source/server.js",
     "debug": "cross-env NODE_PATH=source node --debug-brk --inspect source/server.js",
-    "test": "cross-env NODE_PATH=source node source/test/index.js"
+    "test": "cross-env NODE_PATH=source node src/test/*.test.js"
   },
   "repository": {
     "type": "git",

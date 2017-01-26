@@ -1,7 +1,7 @@
 const test = require('tape')
 const request = require('supertest')
 
-const app = require('app')
+const app = require('../app')
 
 test('get /', assert => {
   request(app)
